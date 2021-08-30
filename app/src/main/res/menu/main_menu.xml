@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="메인화면">
+
+        </item>
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/main_menu_ic"
+            android:title="공지사항">
+
+        </item>
+        <item
+            android:id="@+id/nav_profile_info"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="사용자정보">
+
+        </item>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="사용자전환">
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="영업관리">
+            <menu>
+                <item
+                    android:id="@+id/nav_a1"
+                    android:title="원자재입고">
+
+                </item>
+                <item
+                    android:id="@+id/nav_a2"
+                    android:title="원자재재고관리"></item>
+                <item
+                    android:id="@+id/nav_a3"
+                    android:title="제품출고"></item>
+                <item
+                    android:id="@+id/nav_a4"
+                    android:title="납품현황"></item>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="all">
+    <item android:title="제품관리">
+       <menu>
+            <item
+                android:id="@+id/nav_b1"
+                android:title="제품재고관리">
+
+            </item>
+            <item
+                android:id="@+id/nav_b2"
+                android:title="제품별재고현황">
+            </item>
+
+        </menu>
+
+    </item>
+    </group>
+</menu>
